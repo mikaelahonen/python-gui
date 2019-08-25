@@ -21,8 +21,8 @@ class Window(Frame):
 
         #Create a button
         action_button = Button(self, text="Print")        
-        action_button.place(x=0, y=0)
-        #action_button.size(height=100, width=100)
+        action_button.place(x=20, y=20)
+        action_button.config(height=9, width=16)
 
         
         
